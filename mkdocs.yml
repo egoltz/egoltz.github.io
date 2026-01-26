@@ -4,3 +4,13 @@ site_url: https://egoltz.github.io
 repo_url: https://github.com/egoltz/egoltz.github.io
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - Work:
+      - Overview: work/index.md
+      - Projects: work/projects/index.md
+      - Systems & Data Engineering: work/data-engineering/index.md
+      - Financial Analysis: work/financial-analysis/index.md
+  - About: about.md
+  - CV: cv.md
