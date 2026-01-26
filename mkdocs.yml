@@ -1,0 +1,6 @@
+site_name: Elizabeth Goltz
+site_description: Work samples, projects, and experiments
+site_url: https://egoltz.github.io
+repo_url: https://github.com/egoltz/egoltz.github.io
+theme:
+  name: material
