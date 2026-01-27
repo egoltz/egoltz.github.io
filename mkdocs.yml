@@ -7,10 +7,16 @@ theme:
 
 nav:
   - Home: index.md
-  - Work:
+  - Projects & Work:
       - Overview: work/index.md
-      - Projects: work/projects/index.md
-      - Systems & Data Engineering: work/data-engineering/index.md
-      - Financial Analysis: work/financial-analysis/index.md
+      - Systems & Data Engineering:
+          - Overview: work/data-engineering/index.md
+          - Database Update - Stored Procedure: work/data-engineering/stored-procedure.md
+      - Financial Analysis: 
+          - Overview: work/financial-analysis/index.md
+          - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
+          - Ontario Police Case Study: work/financial-analysis/ontario-police.md
   - About: about.md
   - CV: cv.md
+
+
