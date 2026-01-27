@@ -1,5 +1,5 @@
-![Toliza Cost Pool Allocation by Percentage](../assets/images/toliza%.png)
-![Toliza Cost Pool Allocation Amount in Pounds](../assets/images/toliza$.png)
+![Toliza Cost Pool Allocation by Percentage](/assets/images/toliza%.png)
+![Toliza Cost Pool Allocation Amount in Pounds](/assets/images/toliza$.png)
 
 Biggest cost drivers are Regular Admissions, Special Exhibition Admissions, Curator Hours and Security Hours
 ![Toliza Regular Exhibits vs Special Exhibits](/assets/images/toliza-exhibits.png)
