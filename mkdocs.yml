@@ -10,18 +10,16 @@ nav:
       - Overview: index.md
       - Projects: 
           - Overview: work/projects/index.md
-          - Customomer Revenue Predictors: work/projects/customer-revenue.md
-          - Sales Forecasting Dashboard: work/projects/sales-forecasting.md
-          - Chatbot Trends Analysis: work/projects/chatbot-trends.md
+ #         - Customomer Revenue Predictors: work/projects/customer-revenue.md
+ #         - Sales Forecasting Dashboard: work/projects/sales-forecasting.md
+#          - Chatbot Trends Analysis: work/projects/chatbot-trends.md
       - Data Engineering:
           - Overview: work/data-engineering/index.md
           - Database Update - Stored Procedure: work/data-engineering/stored-procedure.md
       - Financial Analysis: 
           - Overview: work/financial-analysis/index.md
-          - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
+#          - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
           - Ontario Police Case Study: work/financial-analysis/ontario-police.md
-      - Experiments: 
-          - Overview: work/experiments/index.md
   - About: about.md
   - CV: cv.md
 
