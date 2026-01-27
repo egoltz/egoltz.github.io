@@ -5,5 +5,5 @@ I have a MS in Data Science and Busniness Intelligence and Analytics Certificate
 
 In 2023 I participated in a programming fellowship at the Recurse Center and joined a cohort of programmer artists in a an exploration of the limits and capabilities of AI models. I also dove into using Python for data analysis and led an Accessibility meetup for developers to test for and code solutions to accessibility issues in their projects. 
 
-Connect with me on LinkedIn
+Connect with me on (LinkedIn)[https://www.linkedin.com/in/egoltz/]
 
