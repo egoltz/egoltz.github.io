@@ -19,6 +19,7 @@ nav:
       - Financial Analysis: 
           - Overview: work/financial-analysis/index.md
 #          - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
+          - Bridgestone Behavioral Health Case Study: work/financial-analysis/bridgestone.md
           - Ontario Police Case Study: work/financial-analysis/ontario-police.md
   - About: about.md
   - CV: cv.md
