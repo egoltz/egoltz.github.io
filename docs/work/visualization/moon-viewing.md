@@ -1,11 +1,18 @@
 # Optimal Moon Viewing Calendar
 _Python_
 
-I conceived this idea when I was wondering when I might observe a full moon in the sky in the middle of the day. The internet did not provide an easy answer. And I wanted a calendar that I could hang on my wall and have handy as a quick reference guide for optimal moon-viewing times during the day. So, I drew out a sketch for the kind of chart that might serve this purpose. I found an astronomy library for python (astropy) that I used for sun and moon data. This instance charts the moon viewing calendar for Portland, Oregon, but any latitude, longitude can easily be used as input.
+Have you ever wondered why you can seen a cresent moon in the sky in the middle of the day, but the full moon always appears in the night? I wanted to visualize the long cycles of the moon and sun as a handy quick reference guide for optimal moon-viewing. I drew out a sketch for the kind of chart that might serve this purpose and found an astronomy library for python (astropy) that I used for sun and moon height data. This instance charts a moon viewing calendar for Portland, Oregon, but any latitude, longitude can easily be used as input.
 
 ## Moon Viewing Calendar
-Each row charts new moon to new moon, the sun height in gold and moon height in lavendar
-![Moon Viewing Calendar](/assets/images/moon.png)
+Each row charts one cycle new moon to new moon, the sun height in the sky is in gold and moon height in purple and the nights are represented by blue-grey bands.
+![Moon Viewing Calendar](/assets/images/moon-chart.png)
+
+What I love about this graphic is the you can clearly see seasonal trends and cycles. I can get an over view of the information from a distance. And then zooming in, I can get very specific information about when is the best time of day to view the moon. I don't think there is a need for labels, though in a larger image there are dates visible, for conveniece. 
+
+### Original sketch for the moon-viewing calendar
+![Moon Viewing Calendar Skectch](/assets/images/moon-sketch.png)
+
+
 
 ## Code
 ```python
@@ -91,7 +98,6 @@ def plot_cycle(days, sun_altitudes, moon_altitudes, cycle_num, latitude, longitu
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m-%d'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator())
 
-    #plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=120))
     plt.gcf().autofmt_xdate()
     plt.ylabel(f'Cycle {cycle_num + 1}')
     plt.ylim(0, y_max)
@@ -132,3 +138,5 @@ longitude = -122.6789
 
 plot_sun_moon(latitude, longitude)
 ```
+
+![Moon Viewing Calendar](/assets/images/moon.png)
