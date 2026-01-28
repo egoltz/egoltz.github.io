@@ -24,11 +24,6 @@ and the clinics and monthly costs (using monthly cost
 of living per zipcode as a proxy), but these are only two potential factors that go into
 the massive decision to build or buy another clinic.
 
-## Choosing a Location
-
-For an organization to succeed in a new location, some of the most important factors to consider are workforce, costs, licenses/permits, zone requirements, incentives, and real estate availability
-For the sake of this project, we are solely using costs (using monthly CoL per zip code as a proxy for monthly operation costs) and travel distance between clients and the clinic, but there are many things to consider prior to making this decision.
-
 ## Data
 
 Data was stored as a csv which included 7,464 rows, with each row representing a record for a feral cat attended to by the clinic. It encompasses about a year’s worth of data. 
