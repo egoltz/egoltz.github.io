@@ -5,11 +5,24 @@ For my Operations Research Class with Engineering and Technology Management (ETM
 
 ## Premise 
 
-Local nonprofit Feral Cat Coalition of Oregon, which provides trap-and-spay services to feral cat caretakers (among other tasks) has one clinic in SW Portland helping animals across Oregon and southern Washington.
+Local nonprofit Feral Cat Coalition of Oregon has one clinic in SW
+Portland servicing clients across Oregon and southern Washington. They
+provide trap-and-spay services among others, and have helped 140k cats
+since 1995. Many clients are low-income and/or may have a hard time
+travelling more than an hour away, especially when handling feral cats,
+so it could be easier and more attractive to more potential clients if
+FCCO had a second location. If they were to open another clinic, which
+location would best service clients, taking into account client travel
+distance and monthly operation cost?
 
-Many clients are low-income and/or may have a hard time traveling more than an hour away, especially with wild animals. Some people may be underserved due to their distance from the clinic.
-
-If they were to open another clinic, taking into account client travel distance and monthly operation cost, which location would best service the most clients?
+For an organization to succeed in a new location, some of the most
+important factors to consider are workforce, costs, licenses/permits,
+zone requirements, tax or other incentives, real estate availability,
+donor location and preference, and more. For the sake of this project
+and simplicity, we will only be using travel distance between clients
+and the clinics and monthly costs (using monthly cost
+of living per zipcode as a proxy), but these are only two potential factors that go into
+the massive decision to build or buy another clinic.
 
 ## Choosing a Location
 
