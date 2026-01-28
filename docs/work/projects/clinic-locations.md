@@ -25,7 +25,7 @@ of living per zipcode as a proxy), but these are only two potential factors that
 the massive decision to build or buy another clinic.
 
 ## Data
-
+The clients dataset was sourced from FCCO; the clinics dataset contains the coordinates of the current clinic location along with the 10 other potential locations.
 Data was stored as a csv which included 7,464 rows, with each row representing a record for a feral cat attended to by the clinic. It encompasses about a year’s worth of data. 
 Though each row represents a unique record, not all records had unique addresses, indicating that a client had either visited the client multiple times or had multiple cats attended to. There are 1,800 unique addresses.
 Latitude & Longitude were added for each address through a converter found online. Clients were later aggregated by the average of their coordinates per zipcode.
