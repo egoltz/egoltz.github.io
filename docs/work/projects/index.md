@@ -1,1 +1,1 @@
-Projects based on 
+Projects 
