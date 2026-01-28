@@ -10,7 +10,7 @@ nav:
       - Overview: index.md
       - Projects: 
           - Overview: work/projects/index.md
- #         - Customomer Revenue Predictors: work/projects/customer-revenue.md
+          - Optimizing Nonprofit Clinic Locations: work/projects/clinic-locations.md
  #         - Sales Forecasting Dashboard: work/projects/sales-forecasting.md
 #          - Chatbot Trends Analysis: work/projects/chatbot-trends.md
       - Data Engineering:
