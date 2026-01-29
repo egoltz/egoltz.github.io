@@ -7,24 +7,26 @@ theme:
 
 nav:
   - Work: 
-      - Overview: index.md
-      - Projects: 
-          - Overview: work/projects/index.md
-          - Optimizing Nonprofit Clinic Locations: work/projects/clinic-locations.md
- #         - Sales Forecasting Dashboard: work/projects/sales-forecasting.md
-#          - Chatbot Trends Analysis: work/projects/chatbot-trends.md
-      - Data Engineering:
-          - Overview: work/data-engineering/index.md
-          - Database Update - Stored Procedure: work/data-engineering/stored-procedure.md
-      - Financial Analysis: 
-          - Overview: work/financial-analysis/index.md
-#          - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
-          - Bridgestone Behavioral Health Case Study: work/financial-analysis/bridgestone.md
-          - Ontario Police Case Study: work/financial-analysis/ontario-police.md
-      - Visualization:
-          - Overview: work/visualization/index.md
-          - Optimal Moon-Viewing Calendar: work/visualization/moon-viewing.md
-          - Image Color Analysis: work/visualization/color-analysis.md
+    - Overview: index.md
+    - Projects: 
+        - Overview: work/projects/index.md
+        - Optimizing Nonprofit Clinic Locations: work/projects/clinic-locations.md
+        - Industrial Safety App: work/projects/vwshr.md
+        - Customer Segmentation Analysis: work/projects/gt.md 
+  #     - Sales Forecasting Dashboard: work/projects/sales-forecasting.md
+  #     - Chatbot Trends Analysis: work/projects/chatbot-trends.md
+
+        - Database Update - Stored Procedure: work/data-engineering/stored-procedure.md
+    - Financial Analysis: 
+        - Overview: work/financial-analysis/index.md
+
+        - Bridgestone Behavioral Health Case Study: work/financial-analysis/bridgestone.md
+        - Ontario Police Case Study: work/financial-analysis/ontario-police.md
+          #      - Toliza Art Museum Case Study: work/financial-analysis/toliza-art.md
+    - Visualization:
+        - Overview: work/visualization/index.md
+        - Optimal Moon-Viewing Calendar: work/visualization/moon-viewing.md
+        - Image Color Analysis: work/visualization/color-analysis.md
   - About: about.md
   - CV: cv.md
 

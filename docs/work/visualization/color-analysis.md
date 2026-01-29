@@ -53,7 +53,7 @@ plt.imshow(img)
 plt.axis('off')
 plt.show()
 ```
-![alt text](image.png)
+![alt text](sargent-painting.png)
 
 ```python
 colors_x = extcolors.extract_from_image(img, tolerance=12, limit=12)
@@ -117,7 +117,7 @@ fig.set_facecolor('white')
 print(img)
 plt.show()
 ```
-![alt text](image-1.png)
+![alt text](color-cirlce).png)
 
 ### Horizontal Stacked Bar
 ```python
@@ -146,4 +146,4 @@ plt.tight_layout()
 print(img)
 plt.show()
 ```
-![Horizontal Stacked Bar Chart](image-2.png)
+![Horizontal Stacked Bar Chart](color-bar.png)

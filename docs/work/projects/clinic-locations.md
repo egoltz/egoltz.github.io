@@ -1,5 +1,5 @@
 # Optimizing Nonprofit Clinic Locations
-_Analysis in R_
+_Tools & methods: R, optimization modeling_
 
 For my Operations Research Class with Engineering and Technology Management (ETM) Department Chair Tim Anderson, I worked on a mapping optimization project with a group of two other graduate students. Our goal was to find an additional optimal location for a local non-profit. Altough we all particicpated in all aspects of the project, my part of the project was to write the model formulation, code the model in R and run it for 2 and 4 clinics. I also styled maps for presentation.
 
