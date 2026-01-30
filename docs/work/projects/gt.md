@@ -1,13 +1,22 @@
-# Marketing Data Cleaning & Customer Segmentation
+# Marketing Customer Data Project
 _Tools & methods: Python, Excel, Tableau, data wrangling, fuzzy matching, k-means clustering, data visualization_
 
-![Tableau](gt-tableau.png)
+![Tableau](/assets/images/gt-tableau.png)
 
-This was a contract project for a PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. Originally scoped as a data hygene project, (to clean, deduplicate and standardize data that had been concatonated from several datasets), he project expanded to segment customer base for marketing strategy and to merge the existing company data to an industry-specific national database, in order to enrich their existing data, find revenue drivers and use that information to find potential new customers.
+This was an extended contract project for a PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. Originally scoped as a data hygene project, (to clean, standardize, de-duplicate, classify customer types for data that had been concatonated from several datasets. And find potentially monetizable patterns to present and discuss with the marketing VP. The project expanded to 
 
-## Data wrangling
+1) segment customer base for marketing strategy and 
 
-This data was extremely messy and had many non-standardized and blank fields critical for analysis. The data was entered by the company's golf reps, who had their own jargon and varied abbreviations, etc. Newly aquired companies had their own reps and often sold products to the same customers; this was hidden in the data by duplicate customer entries. 
+2) merge the existing company data to an industry-specific national database, in order to enrich their existing data, find revenue drivers and use that information to find potential new customers.
+
+3) match opporitunity customers to a purchased industry-wide email list.
+
+Customer data was extremely messy and had many non-standardized and blank fields critical for analysis. Data was entered by golf reps from different companies and had varied jargon and abbreviations. Newly aquired companies had their own reps and often sold products to the same customers; this was hidden in the data by duplicate customer entries. 
+
+## Data Wrangling and Exploration
+In order to explore patterns in the Company Name field, I made a network graph that sized the words according to their occurance in the dataset. This helped me to find new customer types, chain stores, and words to eliminate as 'stop words' in the matching process.
+
+![network graph](/assets/images/gt-network.png>)
 
 ### Fuzzy Matching
 
@@ -53,6 +62,6 @@ Found 308 rows from duplicate pairs.
 ## Customer Segmentation
 I used k-means on several revenue categories to cluster customers by spending habits.
 
-![Customer segmentation](<gt-customer-seg.png>)
+![Customer segmentation](assets/images/gt-customer-seg.png)
 
 
