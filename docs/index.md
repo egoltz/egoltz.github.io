@@ -38,7 +38,7 @@ _Tools & methods: Excel, Managerial Accounting_
 
 ## **Visualization and Web experiments**
 
-### [Image Color Analysis](work/visualization/color-analysis.md)
+### [Image Color Analysis](/work/experiments/color-analysis/)
 _Tools & methods: Python, UX_
 
 I originally wrote this python code for UX research, but demo'd here using fine art examples.
@@ -56,7 +56,7 @@ A simple django app to share my allergy-friendly fruit-forward ratio-based break
 ### [Personal Project Website](https://elizabeth-goltz-projects.vercel.app/)
 _Tools & methods: Javascript, React, NextJS, Notion API, vercel_
 
-Person website that uses Notion API to post pages to the web, hosted on vercel
+Personal website that uses Notion API to post pages to the web, hosted on vercel
 
 
 

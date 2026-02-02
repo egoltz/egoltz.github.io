@@ -62,6 +62,6 @@ Found 308 rows from duplicate pairs.
 ## Customer Segmentation
 I used k-means on several revenue categories to cluster customers by spending habits.
 
-![Customer segmentation](assets/images/gt-customer-seg.png)
+![Customer segmentation](/assets/images/gt-customer-seg.png)
 
 

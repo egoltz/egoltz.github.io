@@ -14,7 +14,7 @@ I got image files of 94 Mark Rothko paintings from wikiart.org with title and ye
 
 Here is an example of Rothko's classic colorfield paintings shown with their color analysis:
 
-![Rothko Analysis](rothko-analysis.png)
+![Rothko Analysis](/assets/images/rothko-analysis.png)
 
 Here are a series of color breakdowns from Rothko's initial color field paintings, the breakout years:
 
@@ -22,7 +22,7 @@ Here are a series of color breakdowns from Rothko's initial color field painting
 
 These are the color breakdowns for all the paintings available on wikiart.org, in chronological order:
 
-![Rothko All Paintings](rothko-colorbars.png)
+![Rothko All Paintings](/assets/images/rothko-colorbars.png)
 
 ## Original Color Breakdown Code
 For my original code, I used John Singer Sargent's 'Man with Laurels' from the Los Angeles County Museum of Art Permanent Collection Archives. This painting has always been interesting to me because it conveys so much with such a limited palette. Contrast to Rothko's abstract minimalism, where color is the primary vehicle for expression.
