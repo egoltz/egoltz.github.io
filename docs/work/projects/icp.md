@@ -1,18 +1,15 @@
 # ICP-Driven MedTech Company & Contact Intelligence Pipeline
-_Python, n8n, web-scraping, research_
-## ICP-Driven MedTech Company & Contact Intelligence Pipeline
+_Python, JavaScript, n8n, Excel, NLP / LLMs_
 
-**Tools:** Python, JavaScript, n8n, Excel, NLP / LLMs
-
-I designed and built an end-to-end data pipeline to **identify, enrich, and continuously monitor high-fit U.S. MedTech companies, innovators, and decision-makers** in advanced surgical devices and robotics.
+I designed and built an end-to-end data pipeline to identify, enrich, and continuously monitor high-fit U.S. MedTech companies, innovators, and decision-makers in advanced surgical devices and robotics.
 
 ### Problem
 
-A European MedTech startup focused on commercializing complex surgical robotics lacked a **reliable, current view of ICP-qualified U.S. companies and technical innovators**. Existing data was fragmented, outdated, and unsuitable for prioritized outreach or market analysis.
+A European MedTech startup focused on commercializing complex surgical robotics lacked a reliable, current view of ICP-qualified U.S. companies and technical innovators. Existing data was fragmented, outdated, and unsuitable for prioritized outreach or market analysis.
 
 ### Solution
 
-I built a **repeatable, automated intelligence pipeline** that converts noisy public and semi-structured sources into a clean, deduplicated, and prioritized ICP database.
+I built a repeatable, automated intelligence pipeline that converts noisy public and semi-structured sources into a clean, deduplicated, and prioritized ICP database.
 
 ### What I Built
 
@@ -39,7 +36,7 @@ I built a **repeatable, automated intelligence pipeline** that converts noisy pu
 
 ### Outcome
 
-- Produced a **high-signal ICP intelligence dataset** for sales, partnerships, and market research
+- Produced a high-signal ICP intelligence dataset for sales, partnerships, and market research
 - Significantly expanded U.S. company and contact coverage
 - Reduced manual research and data cleanup effort through automation
 
