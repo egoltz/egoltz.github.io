@@ -5,7 +5,7 @@ I designed and built an end-to-end data pipeline to identify, enrich, and contin
 
 ### Problem
 
-A European MedTech startup focused on commercializing complex surgical robotics lacked a reliable, current view of ICP-qualified U.S. companies and technical innovators. Existing data was fragmented, outdated, and unsuitable for prioritized outreach or market analysis.
+A EU MedTech startup focused on commercializing complex surgical robotics lacked a reliable, current view of ICP-qualified U.S. companies and technical innovators. Existing data was  outdated and unsuitable for prioritized outreach or market analysis.
 
 ### Solution
 
@@ -14,29 +14,26 @@ I built a repeatable, automated intelligence pipeline that converts noisy public
 ### What I Built
 
 - **ICP → Data Translation**
-    - Converted qualitative ICP definitions into concrete filters (NAICS, CPC, patent signals)
+    - Converted qualitative ICP definitions into regulatory codes to use as filters (NAICS, CPC, patent signals)
     - Defined technical and regulatory inclusion criteria
 - **Automated Data Pipelines**
     - Ingested and updated U.S. patent data, SEC Form D filings, and FDA 510(k) records
     - Prototyped ETL workflows in Python; productionized automation in n8n (quarterly refresh)
 - **AI-Assisted Filtering**
     - Applied NLP to patent abstracts for first-pass ICP classification (Yes / No / Maybe)
-    - Built and evaluated LLM classifiers to resolve ambiguous technical cases
+    - Built and evaluated an LLM classifier to resolve ambiguous technical cases
     - Tested multiple models for accuracy in a narrow, domain-specific space
-        
+This is a high-level diagram of the LLM Patent Classifier
 ![LLM Patent Classifier](/assets/images/hx-llmClassifier-diagram.png)
         
-- **Company & Contact Discovery**
-    - Scraped industry publications and innovation sources to identify relevant companies and key contacts
 - **Normalization & De-duplication**
     - Implemented fuzzy matching and consolidation logic to:
         - Merge duplicate organizations
-        - Aggregate patents and funding signals
-        - Preserve highest-confidence positive classifications
+        - Aggregate patents 
 
 ### Outcome
-
-- Produced a high-signal ICP intelligence dataset for sales, partnerships, and market research
+![ICP ERD](/assets/images/icp-erd.png)
+- Produced a high-signal ICP intelligence dataset of companies and contacts for the marketing team.
 - Significantly expanded U.S. company and contact coverage
 - Reduced manual research and data cleanup effort through automation
 

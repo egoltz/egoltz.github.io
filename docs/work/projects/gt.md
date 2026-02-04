@@ -64,4 +64,6 @@ I used k-means on several revenue categories to cluster customers by spending ha
 
 ![Customer segmentation](/assets/images/gt-customer-seg.png)
 
+High spenders generate outsized revenue, especially in accessories, which scale faster than other categories—making accessories the strongest lever for segment-based revenue growth.
+
 
