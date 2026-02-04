@@ -1,4 +1,4 @@
-# Marketing Customer Data Project
+# Marketing Data Project
 _Tools & methods: Python, Excel, Tableau, data wrangling, fuzzy matching, k-means clustering, data visualization_
 
 ![Tableau](/assets/images/gt-tableau.png)
@@ -16,7 +16,7 @@ Customer data was extremely messy and had many non-standardized and blank fields
 ## Data Wrangling and Exploration
 In order to explore patterns in the Company Name field, I made a network graph that sized the words according to their occurance in the dataset. This helped me to find new customer types, chain stores, and words to eliminate as 'stop words' in the matching process.
 
-![network graph](/assets/images/gt-network.png>)
+![network graph](/assets/images/gt-network.png)
 
 ### Fuzzy Matching
 
