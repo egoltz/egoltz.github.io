@@ -7,7 +7,7 @@ In participated in the Zero to One Build Challenge for Portland Startup Week, 20
 
 * Built an AI-driven prototype for text-from-image capture and classification.
 * Designed and programmed the backend data model in Excel and Python.
-* Created a dataset of edge-case test images using iphone photography, digital painting, and AI image tools, paired with labeled test data.
+* Created a dataset of edge-case test images using iphone photography, digital painting, and AI image, paired with labeled test data.
 * Created presentation images (above & below) to graphically show our problem & solution, using iphone photo, digital painting and AI image tools.
 
 ![loto](/assets/images/vwshr-loto.png)

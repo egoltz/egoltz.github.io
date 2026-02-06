@@ -2,61 +2,60 @@
 This repository is a sample of my recent projects and coursework, focused on Data Science, Business Intelligence, Analytics, Data Visualization. 
 
 ## **Projects**
-### [MedTech Data Pipeline](/work/projects/icp/)
-_Tools & methods: Python, JavaScript, n8n, NLP/LLMs, Excel_
+<!-- ### [MedTech Data Pipeline](/work/projects/icp/)
+_Python, JavaScript, n8n, NLP/LLMs, Excel_
 
-Automated system that identifies, enriches, and monitors U.S. surgical device companies and innovators using patents, regulatory data, and AI-driven ICP classification.
+Automated system that identifies, enriches, and monitors U.S. surgical device companies and innovators using patents, regulatory data, and AI-driven ICP classification. -->
 
 ### [Marketing Data Analysis: ](/work/projects/gt/)
-_Tools & methods: Python, Excel, Tableau_
+_Python, Excel, Tableau_
 
-End-to-end data analysis project on a fragmented post-acquisition dataset. I cleaned, standardized, and de-duplicated records across multiple companies, then identified key revenue drivers and customer segments. Delivered executive dashboards for the VP of Marketing and board-level visualizations, including custom geographic maps to support strategic decision-making.
+End-to-end data analysis project on a post-acquisition dataset. I cleaned, standardized, and de-duplicated records across multiple companies, then identified key revenue drivers and customer segments.
 
 ### [Industrial Safety App](/work/projects/vwshr/)
-_Tools & methods: Python, SQL, Excel, test design, data base design, IT innovation_
+_Python, SQL, Excel, test design, data base design, IT innovation_
 
-I was the data lead for a Portland Startup Week hackathon team that built a functional prototype for an app that supported worker safety by documenting and streamlining LockoutTagout procedure compliance in Industrial Manufacturing settings.
-
-### [Optimizing Nonprofit Clinic Locations](/work/projects/clinic-locations/)
-_Tools & methods: R, mapping, distance optimization_
-
-Created a decision model to find optimizal locations for a new Clinic location for a local non-profit.
+Data lead for a Portland Startup Week hackathon team that built a functional prototype for an app that supported worker safety by documenting and streamlining LockoutTagout procedure compliance in Industrial Manufacturing settings.
 
 ### [Workplace AI System Audit](/work/projects/pge/)
-_Tools & methods: Python, Excel, data visualization, VOC, survey design, project management_
+_Python, Excel, data storytelling, VOC, survey design, project management_
 
 Graduate Capstone Project auditing the internal AI system for a large public energy company.
 
-## **Financial Analysis & SQL work samples**
-(from MS coursework)
-### [Database Update with a Stored Procedure](/work/projects/stored-procedure.md/)
-_Tools & methods: MySQL, Data Warehousing_
-### [Bridgestone Behavioral Health Case Study](/work/financial-analysis/bridgestone/)
-_Tools & methods: Excel, Managerial Accounting_
-### [Ontario Police Case Study](/work/financial-analysis/ontario-police/)
-_Tools & methods: Excel, Managerial Accounting_
+### [Optimizing Nonprofit Clinic Locations](/work/projects/clinic-locations/)
+_R, mapping, distance optimization_
 
-## **Visualization and Web experiments**
+Created a decision model to find optimizal locations for a new Clinic location for a local non-profit.
+
+## **Financial Analysis & SQL work samples**
+(from Data Warehousing & Managerial Accounting MS coursework)
+
+_MySQL, Excel_
+### [Database Update with a Stored Procedure](/work/projects/stored-procedure.md/)
+### [Bridgestone Behavioral Health Case Study](/work/financial-analysis/bridgestone/)
+### [Ontario Police Case Study](/work/financial-analysis/ontario-police/)
+
+## **Visualization and Web Experiments**
 
 ### [Image Color Analysis](/work/experiments/color-analysis/)
-_Tools & methods: Python, UX_
+_Python, UX_
 
-I originally wrote this python code for UX research, but demo'd here using fine art examples.
+I originally wrote this python code for UX research project, but demo'd here using fine art examples.
 
 ### [Optimal Moon-Viewing Calendar](/work/experiments/moon-viewing/)
-_Tools & methods: Python, astropy library, graphic design_
+_Python, astropy library, graphic design_
 
 A fun calendar I made to answer the question: When is the best time to look at the moon?"
 
 ### [Ratio Cakes](https://ratiocakes.pythonanywhere.com/)
-_Tools & methods: Python, Django, recipe development_
+_Python, Django, recipe development_
 
 A simple django app to share my allergy-friendly fruit-forward ratio-based breakfast cake recipe. 
 
 ### [Personal Project Website](https://elizabeth-goltz-projects.vercel.app/)
-_Tools & methods: Javascript, React, NextJS, Notion API, vercel_
+_Javascript, React, NextJS, Notion API, Vercel_
 
-Personal website that uses Notion API to post pages to the web, hosted on vercel
+Personal website that uses Notion API to post pages to the web, hosted on vercel.
 
 
 
