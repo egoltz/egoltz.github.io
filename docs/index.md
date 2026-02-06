@@ -1,11 +1,11 @@
 # Projects & Work samples
-This repository is a sample of my recent projects and coursework, focused on Data Science, Business Intelligence, Analytics, Data Visualization. 
+This repository showcases my data related projects, relavent work samples, and some creative tech experiements.
 
 ## **Projects**
-<!-- ### [MedTech Data Pipeline](/work/projects/icp/)
+### [MedTech Data Pipeline](/work/projects/icp/)
 _Python, JavaScript, n8n, NLP/LLMs, Excel_
 
-Automated system that identifies, enriches, and monitors U.S. surgical device companies and innovators using patents, regulatory data, and AI-driven ICP classification. -->
+Automated system that identifies, enriches, and monitors U.S. surgical device companies and innovators using patents, regulatory data, and AI-driven ICP classification.
 
 ### [Marketing Data Analysis: ](/work/projects/gt/)
 _Python, Excel, Tableau_

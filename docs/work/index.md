@@ -1,5 +1,4 @@
 # Work
 
-My work spans applied data science, systems design, and financial analysis.  
-
+This repository showcases my data related projects, relavent work samples, and some creative tech experiements.
 

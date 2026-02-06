@@ -3,11 +3,16 @@ _Tools & methods: Python, Excel, Tableau, data wrangling, fuzzy matching, k-mean
 
 ![Tableau](/assets/images/gt-tableau.png)
 
-This was an extended contract data & marketing strategy project for a PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. It was scoped as a data hygene project: to clean, standardize, de-duplicate, classify customer types for data that had been concatonated from several datasets. This made their data usable for marketing strategy. The project extended to merge data to a purchased national industry database and to find new customers, and  monetizable patterns.
+## Problem
+A PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. Their data that had been concatonated from several datasets and was inconsistant, sparse, had duplicate clients and unusable for analysis. They needed clean consistent crm-ready data that could be matched to national industry-wide data for analysis and customer prospecting.
+
+## Solution
+I cleaned, standardized, de-duplicated, classified blank customer types for . This made their data usable for marketing strategy. I merged data to a purchased national industry database, found a relable revenue predictor, new customer categoiries, and monetizable patterns. 
 
 I presented my findings and visualizations in regular creative marketing strategy meetings with the VP of Marketing. My data visualizations and maps were used as key visuals in quarterly board meetings for executive level decisions, as well as long term regional marketing strategy. 
 
-## Data Wrangling
+## Process
+### Data Wrangling
 Customer data was extremely messy and had many non-standardized and blank fields critical for analysis. Data was entered by golf reps from different companies and had varied jargon and abbreviations. Newly aquired companies had their own reps and often sold products to the same customers; this was hidden in the data by duplicate customer entries. 
 I standardized company names, geographic fields, and across multi-origin data. I deduplicated companies using fuzzy matching in python.
 
@@ -52,7 +57,7 @@ print(f"Found {len(duplicates_df)} duplicates")
 Found 308 duplicates.
 </details>
 
-## Matching to a National Database
+### Matching to a National Database
 
 The client purchased national database of golf courses that had a wealth of demographic, facility and financial information. I merged this data to existing cleaned customer data using fuzzy matching on the company names and exact match for city and state. With this information, I was able to enrich existing customer data to find revenue trends for existing customer and find opportunity accounts.
 
@@ -62,10 +67,10 @@ When I got the data, the customer type field was 38% blank. I classified all cus
 
 ![](/assets/images/gt-cust-type-after.png)
 
-**Original Data had 38% blanks**
+Original Data had 38% blank customer types, from aquired company data. Primary task was to find all the green grass accounts among the blanks. I found additionall categories by with text analysis of the company name field.
 ![](/assets/images/gt-cust-type-before.png)
 
-### Customer Segmentation
+### Customer Segmentation by Spending 
 I used k-means on several revenue categories to cluster customers by spending habits. High spenders generate outsized revenue in accessories, which scale faster than other categories, making accessories the strongest lever for segment-based revenue growth. 
 
 ![Customer segmentation](/assets/images/gt-customer-seg.png) 
@@ -76,9 +81,9 @@ I found that most customers were buying only one of the 2 main product lines. Th
 ![Product Line Revenue Scatter Plot](/assets/images/gt-cross-selling.png) 
 
 ### Resolving Public/Private Revenue Discrepancy
-The client marketing team wanted to validate an assumption with leadership, who believed that public golf courses created more revenue. I found that, while there were a few outlier public courses, in general, Public vs. Private status did not accurately predict revenue.
+The client marketing team wanted to validate an assumption with leadership, who believed that public golf courses created more revenue. I found that, while there were a few exceptionally high revenue public courses, in general, Public vs. Private status did not predict revenue.
 
-![](/assets/images/gt-public-private2.png)
+![](/assets/images/gt-public-private.png)
 
 ### Regional Tier & Opportunity Maps
 
