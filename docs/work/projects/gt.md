@@ -3,25 +3,17 @@ _Tools & methods: Python, Excel, Tableau, data wrangling, fuzzy matching, k-mean
 
 ![Tableau](/assets/images/gt-tableau.png)
 
-This was an extended contract project for a PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. Originally scoped as a data hygene project, (to clean, standardize, de-duplicate, classify customer types for data that had been concatonated from several datasets. And find potentially monetizable patterns to present and discuss with the marketing VP. The project expanded to 
+This was an extended contract project for a PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. It was originally scoped as a data hygene project, to clean, standardize, de-duplicate, classify customer types for data that had been concatonated from several datasets. The project extended to merge data to a purchased national industry database to find new customers and potentially monetizable patterns.
 
-1) segment customer base for marketing strategy and 
+I presented my findings and visualizations in regular creative marketing strategy meetings with the VP of Marketing. My data visualizations and maps were used as key visuals in quarterly board meetings for executive level decisions.
 
-2) merge the existing company data to an industry-specific national database, in order to enrich their existing data, find revenue drivers and use that information to find potential new customers.
-
-3) match opporitunity customers to a purchased industry-wide email list.
-
+## Data Wrangling
 Customer data was extremely messy and had many non-standardized and blank fields critical for analysis. Data was entered by golf reps from different companies and had varied jargon and abbreviations. Newly aquired companies had their own reps and often sold products to the same customers; this was hidden in the data by duplicate customer entries. 
+I standardized company names, geographic fields, and across multi-origin data. I deduplicated companies using fuzzy matching in python.
 
-## Data Wrangling and Exploration
-In order to explore patterns in the Company Name field, I made a network graph that sized the words according to their occurance in the dataset. This helped me to find new customer types, chain stores, and words to eliminate as 'stop words' in the matching process.
-
-![network graph](/assets/images/gt-network.png)
-
-### Fuzzy Matching
-
-I used fuzzy matching in Python because it allows for more control over the process. Because the Golf industry has a lot of similar company names, I wrote my matching algorith to require an exact State match and fuzzy matched the Company Name and Address. I set my Fuzzy match threshold fairly low (75%) and manually reviewed matches between 75-90%.
-
+Because the Golf industry has a lot of similar company names, I wrote my matching algorith to require an exact State match and fuzzy matched the Company Name and Address. I set my Fuzzy match threshold fairly low (75%) and manually reviewed matches between 75-90%.
+<details>
+<summary>My fuzzy matching python code</summary>
 ```python
 import pandas as pd
 from rapidfuzz import fuzz
@@ -55,15 +47,35 @@ df = pd.DataFrame(gt)
 duplicates_df = find_duplicates(df)
 
 # Check results
-print(f"Found {len(duplicates_df)} rows from duplicate pairs.")
+print(f"Found {len(duplicates_df)} duplicates")
 ```
-Found 308 rows from duplicate pairs.
+Found 308 duplicates.
+</details>
 
-## Customer Segmentation
-I used k-means on several revenue categories to cluster customers by spending habits.
+## Matching to a National Database
 
-![Customer segmentation](/assets/images/gt-customer-seg.png)
+The client purchased national database of golf courses that had a wealth of demographic, facility and financial information. I merged this data to existing cleaned customer data using fuzzy matching on the company names and exact match for city and state. With this information, I was able to enrich existing customer data to find revenue trends for existing customer and find opportunity accounts.
 
-High spenders generate outsized revenue, especially in accessories, which scale faster than other categories—making accessories the strongest lever for segment-based revenue growth.
+<!-- ![Opportunity Accounts](/assets/images/gt-opportunity.png) -->
 
+## Value Created
+### Identified Two New Unique Customer Types
+When I got the data, customer type field was 38% blank. I classified all customers and identified two new customer categories, University Teams and Disc Golf Courses.
+![Customer Type - Before](/assets/images/gt-cust-type-before.png) 
+![Customer Type - After](/assets/images/gt-cust-type-after.png)
 
+### Customer Segmentation
+I used k-means on several revenue categories to cluster customers by spending habits. High spenders generate outsized revenue in accessories, which scale faster than other categories, making accessories the strongest lever for segment-based revenue growth.
+
+![Customer segmentation](/assets/images/gt-customer-seg.png) 
+
+### Cross-Selling Opportunity
+I found that most customers were buying only one of the 2 main product lines. This was a huge cross-selling opportunity. While a few of their reps were selling both product lines to customers, most were not aware of the other product line. The aquisitions came with company reps and these new reps were not acting on the merge. Visualizing this problem helped the marketing team to realize that before they expanded their market, they needed to focus on getting their reps up to date on new product lines.
+
+![Product Line Revenue Scatter Plot](/assets/images/gt-cross-selling.png) 
+
+### Public vs. Private Revenue
+The client marketing team wanted to validate their discrepancy with leadership, who believed that public golf courses created more revenue. I found that, while there were a few outlier public courses, in general, public vs. private status did not accurately predict revenue.
+
+![Public Private Revenue Violin Plot](/assets/images/gt-public-private.png)
+![Public Private Revenue](/assets/images/gt-public-private2.png)
