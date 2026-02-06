@@ -10,6 +10,7 @@ nav:
     - Overview: index.md
     - Projects: 
         - Overview: work/projects/index.md
+        - MedTech Data Pipeline: work/projects/icp.md
         - Marketing Data Analysis: work/projects/gt.md  
         - Industrial Safety App: work/projects/vwshr.md      
         - Optimizing Nonprofit Clinic Locations: work/projects/clinic-locations.md
