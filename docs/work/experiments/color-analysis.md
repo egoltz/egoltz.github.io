@@ -1,8 +1,9 @@
 # Color Analysis
 _Python, pillow library_
 
-##tldr; 
-I wrote a python script to analyze color in an image and then used it to analyze Mark Rothko's use of color in his paintings over the course of his lifetime.
+Python script to analyze color in images and abstract it down to a percentage bar chart.
+
+![Rothko Color Field](/assets/images/rothko-colorbars-1.png)
 
 ## Background
 I originally wrote this python script to analyize the colors on a website, after I heard someone describe a UX research project where they were doing this manually. The program looks at an image, pixel by pixel, breaks down the colors by percentage of total image space. 
@@ -12,22 +13,31 @@ Partially inspired by the new Portland Art Museum Mark Rothko Pavilion (November
 ## Data
 I got image files of 94 Mark Rothko paintings from wikiart.org with title and year information. Data cleaning consisted of cropping out the frame or wall background on many of the images.
 
-Here is an example of Rothko's classic colorfield paintings shown with their color analysis:
+Examples of Rothko classic colorfield paintings shown with their color analysis:
 
 ![Rothko Analysis](/assets/images/rothko-analysis.png)
 
-Here are a series of color breakdowns from Rothko's initial color field paintings, the breakout years:
-
-![Rothko Color Field](/assets/images/rothko-colorbars-1.png)
-
-These are the color breakdowns for all the paintings available on wikiart.org, in chronological order:
+This is a representation of Mark Rothko's use of color over the course of his painting career, in chronological order (as available on wikiart.org)
 
 ![Rothko All Paintings](/assets/images/rothko-colorbars.png)
 
 ## Original Color Breakdown Code
 For my original code, I used John Singer Sargent's 'Man with Laurels' from the Los Angeles County Museum of Art Permanent Collection Archives. This painting has always been interesting to me because it conveys so much with such a limited palette. Contrast to Rothko's abstract minimalism, where color is the primary vehicle for expression.
+![Orginal Image](/assets/images/sargent-painting.png)
 
+![Horizontal Stacked Bar Chart](/assets/images/color-bar.png)
+
+Color breakdown by hex code and pixel count:
+
+![Color Hex Codes](/assets/images/color.png)
+
+
+
+
+<details>
+<summary>Python Code for Image Color Analysis</summary>
 ```python
+# Imports
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -53,7 +63,7 @@ plt.imshow(img)
 plt.axis('off')
 plt.show()
 ```
-![alt text](/assets/images/sargent-painting.png)
+
 
 ```python
 colors_x = extcolors.extract_from_image(img, tolerance=12, limit=12)
@@ -117,7 +127,7 @@ fig.set_facecolor('white')
 print(img)
 plt.show()
 ```
-![alt text](/assets/images/color-cirlce).png)
+
 
 ### Horizontal Stacked Bar
 ```python
@@ -146,4 +156,4 @@ plt.tight_layout()
 print(img)
 plt.show()
 ```
-![Horizontal Stacked Bar Chart](/assets/images/color-bar.png)
+</details>
