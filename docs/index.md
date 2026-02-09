@@ -3,14 +3,6 @@ A repository of my data related projects, relavent work samples, visualizations,
 
 ## **Projects**
 
-### [MedTech Data Pipeline](/work/projects/icp/)
-
-_Python, JavaScript, n8n, NLP/LLMs, Excel_
-
-<img src="/assets/images/index-icp.png" width="300" height="200">
-
-Automated system that identifies and enriches contact data for U.S. surgical device companies and innovators. Uses patents, regulatory data, and AI-driven ICP classification.
-
 ### [Marketing Data Analysis: ](/work/projects/gt/)
 
 _Python, Excel, Tableau_
@@ -18,6 +10,14 @@ _Python, Excel, Tableau_
 <img src="/assets/images/index-gt.png" width="300" height="200">
 
 End-to-end data analysis project on a post-acquisition dataset. I cleaned, standardized, and de-duplicated records across multiple companies, then identified key revenue drivers and customer segments.
+
+### [MedTech Data Pipeline](/work/projects/icp/)
+
+_Python, JavaScript, n8n, NLP/LLMs, Excel_
+
+<img src="/assets/images/index-icp.png" width="300" height="200">
+
+Automated system that identifies and enriches contact data for U.S. surgical device companies and innovators. Uses patents, regulatory data, and AI-driven ICP classification.
 
 ### [Industrial Safety App](/work/projects/vwshr/)
 
