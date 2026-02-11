@@ -5,41 +5,96 @@ I designed and built an end-to-end data pipeline to identify, enrich, and contin
 
 ## Problem
 
-An EU MedTech startup focused on commercializing complex surgical robotics lacked a reliable, current view of ICP-qualified U.S. companies and technical innovators. Existing data was outdated and unsuitable for prioritized outreach or market analysis.
+An EU MedTech startup focused on commercializing complex surgical robotics lacked a reliable, current view of ICP-qualified U.S. companies and technical innovators. Existing data was outdated and unsuitable for prioritized outreach or market analysis. I was provided a clear Ideal Customer Profile (ICP), and potential data sources.
 
 ## Solution
 
 I built a repeatable, automated intelligence pipeline that transforms semi-structured sources into a clean, deduplicated, and prioritized ICP database. 
 
 ## Process 
-I was provided a clear Ideal Customer Profile (ICP), and potential data sources. 
-### Researched Data sources
-- Smoke tested potential data sources
-- Researched additional data sources
-### ICP → Data Translation
-- Converted qualitative ICP definitions into regulatory codes to use as filters (NAICS, CPC, FDA product codes)
-- Defined technical and regulatory inclusion criteria
-### Automated Data Pipelines
-- Ingested and updated U.S. patent data, SEC Form D filings, and FDA 510(k) records
-- Prototyped ETL workflows in Python; productionized automation in n8n (quarterly refresh)
-### AI-Assisted Filtering
-- Applied NLP to patent abstracts for first-pass ICP classification (Yes / No / Maybe)
-- Built and evaluated an LLM classifier to resolve ambiguous technical cases
-- Tested multiple models for accuracy in a narrow, domain-specific space
-This is a high-level diagram of the LLM Patent Classifier
+ 
+### Research
+- Smoke tested given potential data sources and researched new ones.
+- There are a lot of high-fee subscription aggregated data repositories in this space, but this was a low-budget project and none of the sources was in my budget nor exactly what I wanted. I had a discovery meeting with highest potential aggregate data source salesperson, still not exactly what we needed.
+- I found alternative civic data sources that gave clearer, more reliable data for the initial signal. 
+
+### Data Sources
+I ended up using data from Patent filings (lens.org), FDA 510(k), and public funding Form D filings from SEC. Each source required: 1) converting qualitative ICP definitions into regulatory codes to use as filters and 2) unique ETL. I prototyped each data extraction in python and then reproduced it in n8n automation software, running locally in Docker.
+
+### Patents
+Patent data was obtained from lens.org and filtered using CPC codes (Central Product Classification), focused on products and services. This was my most granular filter and the strongest signal because it pinpoints very specific technologies.
+
+I prototyped the data extraction in python from downloaded zip file, so I could explore data and fine tune the process.
+
+
+I then replicated this process in n8n and used an HTTP call to the website for quarters. Initially, I looped through each quarter for several years to establish a base, then set it up for quarterly update. 
+
+#### LLM Filtering
+To further filter patents to the ICP, I built an LLM classifier to resolve ambiguous technical cases. This is a high level diagram:
 ![LLM Patent Classifier](/assets/images/hx-llmClassifier-diagram.png)
+
+I used Patent Abstracts, which gave a very detailed description of the specific technologies used. I used NLP to patent abstracts for first-pass ICP classification (Yes / No / Maybe)
+
+Then I instructed an LLM (openai gpt-4.1 mini) on how to specifically classify ICP (Yes/No). I tested various models using the same limited abstracts; 4.1 mini was a clear winner, best with niche technical detail. I fed the Maybe bin through the classifier and got 1500 patents. I filtered out known large companies that did not fit ICP size limits, then aggregated the data to create organization and contacts lists.
+
+This is the n8n workflow LLM Patent Classifier
+
+![LLM Classifier n8n](/assets/images/icp-n8n-llm.png)
+
+### FDA 510(k)
+Product codes are derived by industry code and specific type of product. They are less granular than patent data. This proved to be less useful because these products later in development stages and I wanted to capture very early research.
+
+### SEC Form D
+SEC Funding data is classified by Industry group type. This gives us public funding data that is then matched with specific company names to enrich data with funding history.
+
+<details>
+<summary>Python Code Data Extraction</summary>
+from pathlib import Path
+import pandas as pd
+import re
+
+BASE_DIR = Path("2025Q4_d")  # updated quarterly
+
+# read in folder
+dfs = {}
+for tsv_path in BASE_DIR.glob("*.tsv"):
+    name = tsv_path.stem
+    dfs[name] = pd.read_csv(tsv_path, sep="\t", dtype=str, encoding="utf-8")
+
+# separate out into files (only using ISSUERS and OFFERINGS)
+issuers = dfs["ISSUERS"]
+offering = dfs["OFFERING"]
+#submission = dfs["FORMDSUBMISSION"]
+#recipients = dfs["RECIPIENTS"]
+#related = dfs["RELATEDPERSONS"]
+#signatures = dfs["SIGNATURES"]
+
+# join issuers + offering so we can filter by industry
+iss = issuers.copy()
+off = offering[["ACCESSIONNUMBER","INDUSTRYGROUPTYPE","TOTALAMOUNTSOLD","TOTALOFFERINGAMOUNT","SALE_DATE","YETTOOCCUR"]].copy()
+base = iss.merge(off, on="ACCESSIONNUMBER", how="left")
+
+df = base[
+    base["INDUSTRYGROUPTYPE"]
+    .astype(str)
+    .str.strip()
+    .eq("Other Health Care")
+].copy()
+#df.head()
+</details>
+![n8n workflow - SEC ETL](/assets/images/icp-n8n-form-d.png)
         
 ### Data Aggregation & Expantion
-- Implemented fuzzy matching and consolidation logic to aggregate patents to produce organization list.
+I aggregated the patents by companyImplemented fuzzy matching and consolidation logic to aggregate patents to produce organization list.
 - Exploded out contancts from the inventors field to populate contacts list, including their history of patent research.
 
+![ICP ERD](/assets/images/icp-erd.png)
+
 ### Data Enrichment
-- Enriched data using AI model-ensembling, cross-validation, and manual review.
+Enriched data using AI model-ensembling. (cross-validation between different models) I used openai and claude, to get HQ country, verified website, company size.
 
 ## Value Created
 I delivered high-signal ICP dataset of companies and contacts (diagram below) for the marketing team.
-
-![ICP ERD](/assets/images/icp-erd.png)
 
 - Significantly expanded U.S. company and contact coverage
 - Reduced manual research and data cleanup effort through automation
