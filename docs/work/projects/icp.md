@@ -19,13 +19,12 @@ I built a repeatable, automated intelligence pipeline that transforms semi-struc
 - I found alternative civic data sources that gave clearer, more reliable data for the initial signal. 
 
 ### Data Sources
-I ended up using data from Patent filings (lens.org), FDA 510(k), and public funding Form D filings from SEC. Each source required: 1) converting qualitative ICP definitions into regulatory codes to use as filters and 2) unique ETL. I prototyped each data extraction in python and then reproduced it in n8n automation software, running locally in Docker.
+I integrated three primary data sources: patent filings (Lens.org), FDA 510(k) submissions, and SEC Form D funding disclosures. Each required translating qualitative ICP criteria into structured regulatory codes for filtering, along with source-specific ETL pipelines. I first prototyped extraction logic in Python, then operationalized the workflows in n8n, deployed locally in a Docker container for reproducible automation.
 
 ### Patents
 Patent data was obtained from lens.org and filtered using CPC codes (Central Product Classification), focused on products and services. This was my most granular filter and the strongest signal because it pinpoints very specific technologies.
 
 I prototyped the data extraction in python from downloaded zip file, so I could explore data and fine tune the process.
-
 
 I then replicated this process in n8n and used an HTTP call to the website for quarters. Initially, I looped through each quarter for several years to establish a base, then set it up for quarterly update. 
 

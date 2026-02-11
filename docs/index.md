@@ -1,5 +1,5 @@
 # Elizabeth Goltz 
-A repository of my data related projects, relavent work samples, visualizations, and other web experiements.
+This is a repository of my data related projects, relavent work samples, visualizations, and other web experiements.
 
 ## **Projects**
 
