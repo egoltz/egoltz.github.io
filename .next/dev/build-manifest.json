@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0qq6_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_06hvxrd._.js",
+    "static/chunks/0qq6_next_dist_compiled_next-devtools_index_0b4mh6d.js",
+    "static/chunks/0qq6_next_dist_compiled_react-dom_0w7vo9n._.js",
+    "static/chunks/0qq6_next_dist_compiled_react-server-dom-turbopack_09c7ekk._.js",
+    "static/chunks/0qq6_next_dist_compiled_0ujn0b5._.js",
+    "static/chunks/0qq6_next_dist_client_0mz22hy._.js",
+    "static/chunks/0qq6_next_dist_0u2pl.r._.js",
+    "static/chunks/0qq6_@swc_helpers_cjs_0o9.jov._.js",
+    "static/chunks/Code_Web_egoltz_github_io_0rqeker._.js",
+    "static/chunks/turbopack-Code_Web_egoltz_github_io_070y-es._.js"
+  ]
+}
