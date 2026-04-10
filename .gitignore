@@ -4,3 +4,6 @@ node_modules/
 .next/
 dist/
 build/
+BUILD_PROMPTS.md
+DIARY.md
+PRID.md
