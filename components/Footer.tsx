@@ -20,7 +20,7 @@ export default function Footer() {
         </span>
 
         <a
-          href="#"
+          href="https://www.linkedin.com/in/egoltz/"
           aria-label="LinkedIn profile"
           className="text-black hover:opacity-60 transition-opacity"
         >

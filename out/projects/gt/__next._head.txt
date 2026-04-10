@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[41448,["/_next/static/chunks/12_tsicy8mbuf.js","/_next/static/chunks/0q7d7u9bjgzvh.js"],"ViewportBoundary"]
+3:I[41448,["/_next/static/chunks/12_tsicy8mbuf.js","/_next/static/chunks/0q7d7u9bjgzvh.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Marketing Data Project"}],["$","meta","1",{"name":"description","content":"Retail Marketing Data project, included data hygene, fuzzy matching, business intelligence, data modeling, interactive Tableau Dashboards"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"x92OwVbtWUYXeATwWMw79"}
