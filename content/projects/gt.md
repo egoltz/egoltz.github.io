@@ -3,17 +3,17 @@ title: "Marketing Data Project"
 description: "Retail Marketing Data project, included data hygene, fuzzy matching, business intelligence, data modeling, interactive Tableau Dashboards"
 thumbnail: "/images/projects/thumbnail-gt.png"
 tags: ["data", "visualization"]
-tools: ["python", "tableau", "excel", "tableau", "fuzzy matching", "k-means clustering"]
+tools: ["python", "tableau", "excel", , "fuzzy matching", "k-means clustering"]
 date: "2025-07-01"
 featured: true
 ---
 
 # Marketing Data Project
 
-![Tableau](/images/gt-tableau.png)
-
 ## Problem: New Aquisition Data Doesn't Allign
-A PE-backed golf company that had recently aquired several smaller companies with adjacent product lines. Their data that had been concatonated from several datasets and was inconsistant, sparse, had duplicate clients; it was unusable for analysis necessary to run a business. They needed clean consistent crm-ready data that could be matched to national industry-wide data for analysis and customer prospecting.
+A PE-backed golf retail company aquired several smaller companies with adjacent product lines. Their data had been concatonated from several datasets by a prior analyst. It was inconsistant, sparse, had many duplicate customers. It was unusable. They needed clean consistent crm-ready data that could be matched to national industry-wide data for analysis and customer prospecting.
+
+![Tableau dashboard](/images/gt-tableau.png)
 
 ## Solution: Data Hygene > CRM enablement > Business Intelligence
 I cleaned, standardized, de-duplicated, classified blank customer types for . This made their data usable for marketing strategy. I merged data to a purchased national industry database, found a relable revenue predictor, new customer categoiries, and monetizable patterns. 
@@ -26,8 +26,8 @@ Customer data was extremely messy and had many non-standardized and blank fields
 I standardized company names, geographic fields, and across multi-origin data. I deduplicated companies using fuzzy matching in python.
 
 Because the Golf industry has a lot of similar company names, I wrote my matching algorith to require an exact State match and fuzzy matched the Company Name and Address. I set my Fuzzy match threshold fairly low (75%) and manually reviewed matches between 75-90%.
-<details>
-<summary>Python Code for Fuzzy Matching</summary>
+
+Fuzzy Matching Python Code:
 ```python
 import pandas as pd
 from rapidfuzz import fuzz
@@ -63,8 +63,6 @@ duplicates_df = find_duplicates(df)
 print(f"Found {len(duplicates_df)} duplicates")
 Found 308 duplicates.
 ```
-</details>
-
 ### Matching to a National Database
 
 The client purchased national database of golf courses that had a wealth of demographic, facility and financial information. I merged this data to existing cleaned customer data using fuzzy matching on the company names and exact match for city and state. With this information, I was able to enrich existing customer data to find revenue trends for existing customer and find opportunity accounts.
@@ -75,11 +73,11 @@ When I got the data, the customer type field was 38% blank. I classified all cus
 
 ![](/images/gt-cust-type-after.png)
 
-Original Data had 38% blank customer types, from aquired company data. Primary task was to find all the green grass accounts among the blanks. I found additionall categories by with text analysis of the company name field.
+Original Data had 38% blank customer types, from aquired company data. Primary task was to find all the green grass accounts among the blanks. I found two additionall categories in my analysis. This is the original customer types breakdown:
 ![](/images/gt-cust-type-before.png)
 
 ### Customer Segmentation by Spending 
-I used k-means on several revenue categories to cluster customers by spending habits. High spenders generate outsized revenue in accessories, which scale faster than other categories, making accessories the strongest lever for segment-based revenue growth. 
+I used k-means clustering on several revenue categories to cluster customers by spending habits. High spenders generate outsized revenue in accessories, which scale faster than other categories, making accessories the strongest lever for segment-based revenue growth. 
 
 ![Customer segmentation](/images/gt-customer-seg.png) 
 
@@ -100,10 +98,9 @@ The client decided on a staged marketing plan by region and after one of our cre
 ![](/images/gt-map-region-opportunity.png)
 ![](/images/gt-map-region-tier.png)
 
-<details>
-<summary> Python Code for Regional Analysis Maps </summary>
+Python Code for Regional Analysis Maps: 
+
 ```python
-#imports
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -332,4 +329,3 @@ def make_opportunity_map(states, region_name):
 for region_name, states in region_groups.items():
     make_opportunity_map(states, region_name)
 ```
-</details>

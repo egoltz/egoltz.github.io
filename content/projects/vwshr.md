@@ -8,8 +8,8 @@ date: "2025-08-01"
 featured: true
 ---
 # ViewShr Industrustrial Safety App
-## Hackathon
-In participated in the Zero to One Build Challenge for Portland Startup Week, 2025. I joined the industrial safety app project pitched by Jesse X Fernandez because it solved an important real-world industrial manufacturing safety problem and used visual data. Every month, 10 US workers die and 40,000 are injured on the job, due Improper Lock Out Tag Out procedures! Over two days, our team built a functional web app addressing this issue and demoed it to a panel of judges and the public at the event finale. The prototype can be viewed here: [www.viewshr.com](https://www.viewshr.com/)
+
+I participated in the Zero to One Build Challenge for Portland Startup Week, 2025 as the data specialist for an the industrial safety app project pitched by Jesse X Fernandez. His idea solves an important real-world industrial manufacturing safety problem: every month, 10 US workers die and 40,000 are injured on the job, due Improper Lock Out Tag Out procedures! Over two days, our team built a functional web app addressing this issue and demo'd it to a panel of judges and the public at the event finale. 
 ![vwshr](/images/vwshr-app.png)
 **My contributions:**
 

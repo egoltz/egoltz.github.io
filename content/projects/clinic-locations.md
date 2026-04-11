@@ -40,7 +40,7 @@ Though each row represents a unique record, not all records had unique addresses
 Latitude & Longitude were added for each address through a converter found online. Clients were later aggregated by the average of their coordinates per zipcode.
 
 ## Client & Clinic Map
-![Client and Clinic Map](/assets/images/cats-map1.png)
+![Client and Clinic Map](/images/cats-map1.png)
 _Map show clients in red, existing clinic in blue, and potential clinic locations in yellow._
 
 Made in mapping software QGIS, this map shows non-unique client locations and the real and potential clinics chosen based on the concentration of clients.
@@ -52,7 +52,7 @@ The majority of clients come from around the Portland area, but some are as far 
  - Included gas multiplier to factor in gas + travel time + car maintenance, doubled for travel and return trip
 
 ## Formulation
-![Distance Optimization Formulation](/assets/images/cats-distance-formula.png)
+![Distance Optimization Formulation](/images/cats-distance-formula.png)
 
 ## Model 
 The objective function utilized the distHaversine function from the geospatial package to calculate distance between customers and potential clinic locations in order to minimize the distance between both. In order to process the records efficiently, customers were grouped by their zip codes and the average latitude and longitude were calculated per zip code. In the function, potential clinic monthly costs were then divided by the number of customers that were assigned to a clinic, so that as a clinic served more customers, the marginal operating cost decreased. A constraint was also added to ensure that the existing clinic was always selected.
@@ -102,8 +102,8 @@ result <- solve_model(model, with_ROI(solver = "glpk", verbose = TRUE))
 result
 ```
 ## Maps for 2 and 4 Clinic Solutions
-### Maps show optimal clinics for existing clients in both solutions
-![2 or 4 Clinic Locations](/assets/images/cats-maps.png)
+### Maps show optimal clinics for existing clients in 4 clinic and 2 clinic solutions
+![4 or 2 Clinic Locations](/images/cats-maps.png)
 
 ## Results
 The optimal solutions when solving for 3 additional clinic locations were Salem, Gresham, and The Dalles. When solving for only 1 additional clinic location, the result was Salem. However, these solutions did not account for the travel distance by vehicle, so further experiments were still required. To account for distance in miles, the objective function was re-run using the OSRM package, which we used to substitute the Haversine distance function. Interestingly, when plotted, the solutions for travel distance were still the same, though in some cases, customers were routed to clinics which had a shorter travel route even though the haversine distance may have previously indicated a clinic was farther away. This can be clearly observed by comparing the 3 potential clinic solutions between Haversine and OSRM, which show customers from Washington routed to Gresham under Haversine distance, but when accounting for actual travel distance, routed to The Dalles instead.

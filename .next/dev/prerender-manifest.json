@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "c85373415ecd5137e6d509f4314149aa",
-    "previewModeSigningKey": "7018b2fc7f3bd24416202da330852e00d65f18877b08ff9244feca8ae34d83b3",
-    "previewModeEncryptionKey": "64c95ff62736544553d47ce964315d020c78b9b3786bea68217ab143bcf94a5f"
-  }
-}
+{"version":4,"routes":{"/projects/ask-ppd":{},"/projects/audit":{},"/projects/icp":{},"/projects/vwshr":{},"/projects/gt":{},"/projects/moon-viewing":{},"/projects/clinic-locations":{},"/projects/color-analysis":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"e9209a3575dc1d6b2e85c7ca3213caac","previewModeSigningKey":"122a510e043413539830069849c9824440e4dc916093eca9f8d1b4d08ecb6085","previewModeEncryptionKey":"5eb4e5454683fd04e1419ee03e4bd071c4adf361e59051c6655f734e46291621"}}

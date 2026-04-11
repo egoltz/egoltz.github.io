@@ -7,13 +7,14 @@ tools: ["python", "sql", "javascript"]
 date: "2026-04-01"
 featured: true
 ---
-Screen view of the app:
-![ask-ppd screen view](/images/ask-ppd-response.png)
-
-Deployed live at [ASK-PPD](https://ask-ppd.vercel.app/)
 
 ## Overview
 ASK-PPD makes 10 years of Portland Police Bureau open data accessible to anyone who can type a question. Ask something like "which neighborhoods have the slowest police response times?" or "how has motor vehicle theft trended since 2015?" and get a plain-English answer with a supporting chart — no SQL or data skills required.
+
+Deployed live at [ASK-PPD](https://ask-ppd.vercel.app/)
+
+Screen view of the app:
+![ask-ppd screen view](/images/ask-ppd-response.png)
 
 ## The problem it solves
 Portland's public safety data is technically open but practically inaccessible. The PPB publishes crime and dispatch data through Tableau dashboards that require users to already know what they're looking for, understand how to filter datasets, and interpret statistical context on their own. Most residents, journalists, and researchers can't or won't do this.
