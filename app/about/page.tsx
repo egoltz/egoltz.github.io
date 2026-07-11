@@ -23,26 +23,31 @@ export default function AboutPage() {
       </div> */}
 
       {/* Bio */}
-      <section className="mb-10">
+     <section className="mb-10">
         <h1 className="font-roboto font-bold text-2xl text-black mb-4">Elizabeth Goltz</h1>
-        {/* PLACEHOLDER — replace with real bio */}
         <p className="font-inter text-base text-[#555555] leading-relaxed italic">
-This is a repository of my data related projects, relevant work samples, and some creative tech experiments.
+Hi, this is a website showcasing my data related projects, relevant work samples, and some creative tech experiments.
 </p>
 <br></br>
 <p className="font-inter text-base text-[#555555] leading-relaxed italic">
-I have a MS in Data Science and Busniness Intelligence and Analytics Certificate from Portland State University (December 2025, GPA 4.0). I've been working as a Business Data Analyst for the last year, doing business intelligence, research and automation. My prior job on an Accessibility QA team hugely influenced my enthusiasm for making accessible data visualizations and storytelling. My first career was in the textiles design and fabrication industry, where precision math and process where my key skills. I am a systems thinker, a maker, and I have a passion for self-motivated learning and asking good questions.
+I have a MS in Applied Data Science for Business from Portland State University (December 2025, GPA 4.0) as well as a Graduate Certificate in Business Intelligence and Analytics. I've been working as a Business Data Analyst, doing business intelligence, research and automation. My prior job in Accessibility QA taught me to think about data visualization and product design from the perspective of diverse users and edge-case scenarios. My first career was in the textiles design and fabrication industry, where precision math, process optimization, and product development were key skills. I am a systems thinker, a maker, and I have a passion for self-motivated learning and asking good questions.
 </p>
 <br></br>
 <p className="font-inter text-base text-[#555555] leading-relaxed italic">
-In 2023 I participated in a programming retreat at the Recurse Center and joined a cohort of programmer artists in a an exploration of the limits and capabilities of AI models. I also built some workflows for analyzing images and text as data using Python and led an Accessibility meetup for developers to test for and code solutions to accessibility issues in their projects.
+In 2023 I participated in a programming retreat at the Recurse Center and joined a cohort of programmer artists in an exploration of the limits and capabilities of AI models. I also built some workflows for analyzing images and text as data using Python and led an Accessibility meetup for developers to test for and code solutions to accessibility issues in their projects.
+</p>
+<br></br>
+<p className="font-inter text-base text-[#555555] leading-relaxed italic">
+I have undergraduate degrees in Environmental Studies and Visual Art from Oberlin College, as well as a minor in Architecture gained through courses at University of Washington School of Architecture and Bryn Mawr's Growth and Structure of Cities Program.
 </p>
 <br></br>
 <p className="font-inter text-base text-[#555555] leading-relaxed italic">
 I love collaborating on solutions to complex data problems, testing the edges of systems so they run smoothly and creating accessible data storytelling.
-
-
-        </p>
+</p>
+<br></br>
+<p className="font-inter text-base text-[#555555] leading-relaxed italic">
+Connect with me on <a href="https://www.linkedin.com/in/egoltz/" className="underline">LinkedIn</a>
+</p>
       </section>
 
       {/* Links */}
