@@ -39,41 +39,54 @@ function AboutPage() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-inter text-base text-[#555555] leading-relaxed italic",
-                        children: "This is a repository of my data related projects, relevant work samples, and some creative tech experiments."
+                        children: "Hi, this is a website showcasing my data related projects, relevant work samples, and some creative tech experiments."
                     }, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 29,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 32,
+                        lineNumber: 31,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-inter text-base text-[#555555] leading-relaxed italic",
-                        children: "I have a MS in Data Science and Busniness Intelligence and Analytics Certificate from Portland State University (December 2025, GPA 4.0). I've been working as a Business Data Analyst for the last year, doing business intelligence, research and automation. My prior job on an Accessibility QA team hugely influenced my enthusiasm for making accessible data visualizations and storytelling. My first career was in the textiles design and fabrication industry, where precision math and process where my key skills. I am a systems thinker, a maker, and I have a passion for self-motivated learning and asking good questions."
+                        children: "I have a MS in Applied Data Science for Business from Portland State University (December 2025, GPA 4.0) as well as a Graduate Certificate in Business Intelligence and Analytics. I've been working as a Business Data Analyst, doing business intelligence, research and automation. My prior job in Accessibility QA taught me to think about data visualization and product design from the perspective of diverse users and edge-case scenarios. My first career was in the textiles design and fabrication industry, where precision math, process optimization, and product development were key skills. I am a systems thinker, a maker, and I have a passion for self-motivated learning and asking good questions."
                     }, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 33,
+                        lineNumber: 32,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
+                        lineNumber: 35,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "font-inter text-base text-[#555555] leading-relaxed italic",
+                        children: "In 2023 I participated in a programming retreat at the Recurse Center and joined a cohort of programmer artists in an exploration of the limits and capabilities of AI models. I also built some workflows for analyzing images and text as data using Python and led an Accessibility meetup for developers to test for and code solutions to accessibility issues in their projects."
+                    }, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
                         lineNumber: 36,
                         columnNumber: 1
                     }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
+                        lineNumber: 39,
+                        columnNumber: 1
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "font-inter text-base text-[#555555] leading-relaxed italic",
-                        children: "In 2023 I participated in a programming retreat at the Recurse Center and joined a cohort of programmer artists in a an exploration of the limits and capabilities of AI models. I also built some workflows for analyzing images and text as data using Python and led an Accessibility meetup for developers to test for and code solutions to accessibility issues in their projects."
+                        children: "I have undergraduate degrees in Environmental Studies and Visual Art from Oberlin College, as well as a minor in Architecture gained through courses at University of Washington School of Architecture and Bryn Mawr's Growth and Structure of Cities Program."
                     }, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 37,
+                        lineNumber: 40,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 40,
+                        lineNumber: 43,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -81,14 +94,38 @@ function AboutPage() {
                         children: "I love collaborating on solutions to complex data problems, testing the edges of systems so they run smoothly and creating accessible data storytelling."
                     }, void 0, false, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 41,
+                        lineNumber: 44,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
+                        lineNumber: 47,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "font-inter text-base text-[#555555] leading-relaxed italic",
+                        children: [
+                            "Connect with me on ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://www.linkedin.com/in/egoltz/",
+                                className: "underline",
+                                children: "LinkedIn"
+                            }, void 0, false, {
+                                fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
+                                lineNumber: 49,
+                                columnNumber: 20
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
+                        lineNumber: 48,
                         columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
                 lineNumber: 26,
-                columnNumber: 7
+                columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "flex flex-col gap-4",
@@ -102,14 +139,14 @@ function AboutPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(LinkedInIcon, {}, void 0, false, {
                                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                                lineNumber: 58,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             "LinkedIn"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 51,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -119,20 +156,20 @@ function AboutPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(EmailIcon, {}, void 0, false, {
                                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                                lineNumber: 68,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             EMAIL
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                lineNumber: 49,
+                lineNumber: 54,
                 columnNumber: 7
             }, this)
         ]
@@ -155,12 +192,12 @@ function LinkedInIcon() {
             d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
         }, void 0, false, {
             fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-            lineNumber: 87,
+            lineNumber: 92,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-        lineNumber: 78,
+        lineNumber: 83,
         columnNumber: 5
     }, this);
 }
@@ -186,20 +223,20 @@ function EmailIcon() {
                 rx: "2"
             }, void 0, false, {
                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                lineNumber: 107,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Code$2f$Web$2f$egoltz$2e$github$2e$io$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
             }, void 0, false, {
                 fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-                lineNumber: 108,
+                lineNumber: 113,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Code/Web/egoltz.github.io/app/about/page.tsx",
-        lineNumber: 94,
+        lineNumber: 99,
         columnNumber: 5
     }, this);
 }

@@ -5,7 +5,7 @@ thumbnail: "/images/projects/thumbnail-cats-distance.png"
 tags: ["data"]
 tools: ["r", "optimization modeling", "api", "non-profits"]
 date: "2025-04-01"
-featured: false
+featured: true
 ---
 
 # Optimizing Nonprofit Clinic Locations

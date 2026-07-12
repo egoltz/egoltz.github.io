@@ -18,7 +18,7 @@ export default function ProjectList({ projects, tags }: ProjectListProps) {
 
   return (
     <div className="flex flex-col gap-8">
-      <TagFilterBar tags={tags} activeTag={activeTag} onTagChange={setActiveTag} />
+      {/* <TagFilterBar tags={tags} activeTag={activeTag} onTagChange={setActiveTag} /> */}
 
       {filtered.length === 0 ? (
         <p className="font-inter text-sm text-[#555555]">No projects found for this tag.</p>
