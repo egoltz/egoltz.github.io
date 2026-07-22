@@ -1,6 +1,6 @@
 ---
 title: "Moon Viewing Calendar"
-description: "When is the optimal time to see the moon? It depends...find out with this handy moon-viewing calendar. Pulls astronomy data using astropy python library, chart via matplot lib."
+description: "When is the optimal time to see the moon? It depends...find out with this handy moon-viewing calendar. Uses astronomy data from astropy python library, chart via matplot lib."
 thumbnail: "/images/projects/thumbnail-moon-chart.png"
 tags: ["data", "visualization"]
 tools: ["python", "astropy", "graphic design"]

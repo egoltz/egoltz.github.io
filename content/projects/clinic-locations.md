@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Non-profit Clinic Locations"
-description: "Location Optimization, using R,  Open Source Routing Machine (OSRM) and Google Maps API for map visualizations"
+description: "Location Optimization, using R, Open Source Routing Machine (OSRM) and Google Maps API for map visualizations."
 thumbnail: "/images/projects/thumbnail-cats-distance.png"
 tags: ["data"]
 tools: ["r", "optimization modeling", "api", "non-profits"]

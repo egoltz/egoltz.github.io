@@ -1,6 +1,6 @@
 ---
 title: "ViewShr Industrial Safety App"
-description: "Data stratagist for LockOut TagOut (LOTO) compliance app initiated at Portland Startup Week 2025"
+description: "Data stratagist for LockOut TagOut (LOTO) compliance app initiated at Portland Startup Week 2025."
 thumbnail: "/images/projects/thumbnail-vwshr.png"
 tags: ["data", "ai"]
 tools: ["python", "sql", "VOC", "development", "prototyping", "test planning"]

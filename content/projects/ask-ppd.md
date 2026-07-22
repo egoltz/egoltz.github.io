@@ -1,10 +1,10 @@
 ---
 title: "ASK-PPD"
-description: "Natural language query interface for Portland Police Bureau public safety data"
+description: "Natural language query interface for Portland Police Bureau public safety data, built for a hackathon at Portland Metro Region Innovation Hub."
 thumbnail: "/images/projects/thumbnail-ask-ppd.jpeg"
 tags: ["data", "ai", "visualization"]
 tools: ["python", "sql", "javascript"]
-date: "2026-04-01"
+date: "2026-05-16"
 featured: true
 ---
 

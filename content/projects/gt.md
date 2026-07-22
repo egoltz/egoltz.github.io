@@ -1,6 +1,6 @@
 ---
-title: "Marketing Data Project"
-description: "Retail Marketing Data project, included data hygene, fuzzy matching, business intelligence, data modeling, interactive Tableau Dashboards"
+title: "Marketing Data & Business Intelligence Project"
+description: "Retail Marketing Data project, included data hygene, fuzzy matching, business intelligence, data modeling, interactive Tableau Dashboards."
 thumbnail: "/images/projects/thumbnail-gt.png"
 tags: ["data", "visualization"]
 tools: ["python", "tableau", "excel", , "fuzzy matching", "k-means clustering"]

@@ -1,6 +1,6 @@
 ---
 title: "Med-Tech Marketing Funnel"
-description: "Built automated MedTech Data pipeline, featuring repeatable ETL for several civic data sets, an LLM text classifier for parsing niche medTech patent abstracts"
+description: "Automated MedTech Data pipeline, featuring repeatable ETL for several civic data sets, an LLM text classifier for parsing niche medTech patent abstracts."
 thumbnail: "/images/projects/thumbnail-icp2.png"
 tags: ["data", "ai"]
 tools: ["python", "n8n", "javascript", "excel", "nlp", "llms"]
