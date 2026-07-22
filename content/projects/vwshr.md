@@ -4,7 +4,7 @@ description: "Data stratagist for LockOut TagOut (LOTO) compliance app initiated
 thumbnail: "/images/projects/thumbnail-vwshr.png"
 tags: ["data", "ai"]
 tools: ["python", "sql", "VOC", "development", "prototyping", "test planning"]
-date: "2025-08-01"
+date: "2025-06-01"
 featured: true
 ---
 # ViewShr Industrustrial Safety App
